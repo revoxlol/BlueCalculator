@@ -1,0 +1,47 @@
+.calculator {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    background-color: #2e76d0;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  
+  .display {
+    color: white;
+    text-align: right;
+    padding: 20px;
+    background: #2e76d0;
+  }
+  
+  .display .input {
+    font-size: 24px;
+  }
+  
+  .display .result {
+    font-size: 48px;
+  }
+  
+  .keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+    background: #2e76d0;
+  }
+  
+  .keypad button {
+    font-size: 24px;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    background: white;
+    color: #2e76d0;
+    cursor: pointer;
+  }
+  
+  .keypad button:active {
+    background: #f1f1f1;
+  }
+  
